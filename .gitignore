@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights (too large for git)
+weights/
+*.pth
+*.pt
+*.ckpt
+
+# Output directories
+outputs/
+output/
+predictions/
+
+# Local datasets
+datasets/
+DB/
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environments & IDEs
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
